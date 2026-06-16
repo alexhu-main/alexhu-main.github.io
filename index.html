@@ -11,25 +11,25 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <main id="main-content">
+  <table role="presentation" style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table class="profile-section" role="presentation" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Hezhen Hu</name>
-              </p>
+              <div class="name-row">
+                <h1 class="name">Hezhen Hu</h1>
+              </div>
               <p style="text-align: justify; text-justify: inter-word;"> 
                 I am a postdoctoral fellow in <a href="https://www.vita-group.space/">VITA group</a> in <a href="https://www.utexas.edu/">University of Texas at Austin (UT Austin)</a>, working with Prof. <a href="https://scholar.google.com/citations?user=pxFyKAIAAAAJ&hl=zh-CN">Zhangyang Wang</a> and Prof. <a href="https://geopavlakos.github.io/">Georgios Pavlakos</a>.
                 My research aims to build human-centered AI systems that treat human communication and interaction as first-class capabilities, grounded in embodiment and real-world context, enabling physically and socially meaningful interactions between people and AI. This vision has translated into sustained real-world deployments for Deaf communities.
                 In parallel, I have deeply engaged in education and outreach.
               </p>
-              </p>
               <p style="text-align: justify; text-justify: inter-word;">
               I got my PhD degree from <a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, supervised by Prof. <a href="http://staff.ustc.edu.cn/~zhwg/">Wengang Zhou</a> and Prof. <a href="http://staff.ustc.edu.cn/~lihq/en/">Houqiang Li</a>. I served as a leader in the <a href="https://ustc-slr.github.io/">VSLRG</a> research team of sign language understanding.
-              From May 2022 to Feburary 2023, I am fortune to work as a research intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsfot Research Asia</a>, supervised by <a href="https://jianminbao.github.io/">Jianmin Bao</a>, <a href="https://www.dongdongchen.bid/">Dongdong Chen</a>, Lu Yuan, <a href="http://www.dongchen.pro/">Dong Chen</a>, and Fang Wen. 
-              </p>
+              From May 2022 to February 2023, I was fortunate to work as a research intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, supervised by <a href="https://jianminbao.github.io/">Jianmin Bao</a>, <a href="https://www.dongdongchen.bid/">Dongdong Chen</a>, Lu Yuan, <a href="http://www.dongchen.pro/">Dong Chen</a>, and Fang Wen. 
               </p>
               <!-- <p> I'm interested in human avatar modeling, 3D represenation, sign language understanding, large-scale pre-training, and etc. 
               </p> -->
@@ -37,27 +37,35 @@
                 <strong>Please feel free to contact me if you are interested in the above topics and want to collaborate with me.</strong>
               </p>
 
-              <p style="text-align:center">
-                <a href="mailto:alexhu@utexas.edu">Email</a> &nbsp/&nbsp
+              <p class="contact-links" style="text-align:center">
+                <a href="mailto:alexhu@utexas.edu" aria-label="Email Hezhen Hu">Email</a> &nbsp/&nbsp
                 <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
                 <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
-                <a href="https://scholar.google.com/citations?user=Fff-9WAAAAAJ">Google Scholar</a> 
+                <a href="https://scholar.google.com/citations?user=Fff-9WAAAAAJ" aria-label="Hezhen Hu on Google Scholar">Google Scholar</a> 
                 <!-- &nbsp/&nbsp -->
                 <!-- <a href="https://github.com/AlexHu123">Github</a> -->
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/Self.jpg"><img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="images/Self.jpg" class="hoverZoomLink"></a>
+              <a href="images/Self.jpg" aria-label="Open a larger profile photo of Hezhen Hu"><img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="Hezhen Hu profile photo" src="images/Self.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
 
+        <nav class="section-nav" aria-label="Main sections">
+          <a href="#news">News</a>
+          <a href="#selected-publications">Publications</a>
+          <a href="#impact-outreach">Impact</a>
+          <a href="#academic-services">Services</a>
+          <a href="#awards">Awards</a>
+        </nav>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <table role="presentation" width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>News</heading>
+              <h2 id="news">News</h2>
               <ul>
+                <li>2026.06:&nbsp;Selected as a finalist for the <a href="https://e2e3d.github.io/rising_star.html">Rising Star Award for Spatial Intelligence</a> at the E2E3D Workshop @ CVPR 2026.</li>
                 <li>2026.04:&nbsp;We will organize the 3rd 3D Human workshop at ECCV 2026.</li>
                 <li>2026.04:&nbsp;Invited to join AI-Communication Access Coalition. More details on the way!</li>
                 <li>2026.04:&nbsp;HumanNOVA is selected as <strong>Highlight</strong> by CVPR 2026.</li>
@@ -71,10 +79,10 @@
 
 
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table role="presentation" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Selected Publications</heading>
+              <h2 id="selected-publications">Selected Publications</h2>
               <p>
                 Representative papers are <span class="highlight">highlighted</span>.
                 For the full list, please refer to <a href="https://scholar.google.com/citations?user=Fff-9WAAAAAJ&hl=en">Google Scholar</a>.
@@ -82,22 +90,20 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table class="publication-list" role="presentation" aria-labelledby="selected-publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		
     <tr bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/HumanNOVA.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/HumanNOVA.png" alt="HumanNOVA paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="">
-          <papertitle>HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image</papertitle>
-        </a>
+        <span class="paper-title">HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image</span>
         <br>
         <strong>Hezhen Hu</strong>,
         <a href="https://wangbo-zhao.github.io/">Wangbo Zhao</a>,
         <a href="https://guolanqing.github.io/">Lanqing Guo</a>,
         <a href="https://hwjiang1510.github.io/">Hanwen Jiang</a>,
-        <a href="">Jonathan C. Liu</a>,
+        Jonathan C. Liu,
         <a href="https://zhiwenfan.github.io/">Zhiwen Fan</a>,
         <a href="https://kaiwang960112.github.io/">Kai Wang</a>,
         <a href="https://scholar.google.com/citations?user=pxFyKAIAAAAJ&hl=en">Zhangyang Wang</a>,
@@ -105,18 +111,18 @@
         <br>
         <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026
         <br>
-        <a href="">Project</a>
+        <a href="https://humannova.github.io/">Project</a>
         <p>Photorealistic, universal and rapid 3D human avatar modeling from a single image. </p>
       </td>
     </tr>
 
     <tr bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/EVA.jpg" alt="b3do" width="260" style="border-style: none">
+        <img src="images/EVA.jpg" alt="Expressive Gaussian Human Avatars paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2407.03204">
-          <papertitle>Expressive Gaussian Human Avatars from Monocular RGB Video</papertitle>
+          <span class="paper-title">Expressive Gaussian Human Avatars from Monocular RGB Video</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -138,11 +144,11 @@
 
     <tr bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/SignBERT+.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/SignBERT+.png" alt="SignBERT+ paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2305.04868">
-          <papertitle>SignBERT+: Hand-model-aware Self-supervised Pre-training for Sign Language Understanding</papertitle>
+          <span class="paper-title">SignBERT+: Hand-model-aware Self-supervised Pre-training for Sign Language Understanding</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -164,11 +170,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/MMHU.jpg" alt="b3do" width="260" style="border-style: none">
+        <img src="images/MMHU.jpg" alt="MMHU benchmark paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2507.12463">
-          <papertitle>MMHU: A Massive-Scale Multimodal Benchmark for Human Behavior Understanding</papertitle>
+          <span class="paper-title">MMHU: A Massive-Scale Multimodal Benchmark for Human Behavior Understanding</span>
         </a>
         <br>
         <a href="https://shadowiterator.github.io/">Renjie Li</a>,
@@ -179,7 +185,7 @@
         <strong>Hezhen Hu*</strong>,
         <a href="https://vztu.github.io/">Zhengzhong Tu</a>,
         <br>
-        <em>Preprint
+        <em>Preprint</em>
         <br>
         <p> A scalable data annotation pipeline for context-aware human understanding. </p>
       </td>
@@ -189,15 +195,13 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/VLM_3R.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/VLM_3R.png" alt="VLM-3R paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="">
-          <papertitle>VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction</papertitle>
-        </a>
+        <span class="paper-title">VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction</span>
         <br>
         <a href="https://zhiwenfan.github.io/">Zhiwen Fan</a>,
-        <a href="">Jian Zhang</a>,
+        Jian Zhang,
         <a href="https://shadowiterator.github.io/">Renjie Li</a>,
         <a href="https://andy-zd.github.io/">Junge Zhang</a>,
         <a href="https://chenrunjin.github.io/">Runjin Chen</a>,
@@ -214,11 +218,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/UniSign.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/UniSign.png" alt="Uni-Sign paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2501.15187">
-          <papertitle>Uni-Sign: Toward Unified Sign Language Understanding at Scale</papertitle>
+          <span class="paper-title">Uni-Sign: Toward Unified Sign Language Understanding at Scale</span>
         </a>
         <br>
         <a href="https://github.com/ZechengLi19">Zecheng Li</a>,
@@ -237,11 +241,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/PCMA.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/PCMA.png" alt="Prior-aware Cross Modality Augmentation Learning paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://ieeexplore.ieee.org/document/10105511/">
-          <papertitle>Prior-aware Cross Modality Augmentation Learning for Continuous Sign Language Recognition</papertitle>
+          <span class="paper-title">Prior-aware Cross Modality Augmentation Learning for Continuous Sign Language Recognition</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -260,11 +264,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/HOIG.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/HOIG.png" alt="Hand-Object Interaction Image Generation paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2211.15663">
-          <papertitle>Hand-Object Interaction Image Generation</papertitle>
+          <span class="paper-title">Hand-Object Interaction Image Generation</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -282,11 +286,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/CoSLR.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/CoSLR.png" alt="Collaborative Multilingual Sign Language Recognition paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://ieeexplore.ieee.org/document/9954921/">
-          <papertitle>Collaborative Multilingual Sign Language Recognition: A Unified Framework</papertitle>
+          <span class="paper-title">Collaborative Multilingual Sign Language Recognition: A Unified Framework</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -304,11 +308,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/SignBERT.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/SignBERT.png" alt="SignBERT paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_SignBERT_Pre-Training_of_Hand-Model-Aware_Representation_for_Sign_Language_Recognition_ICCV_2021_paper.pdf">
-          <papertitle>SignBERT: Pre-Training of Hand-Model-Aware Representation for Sign Language Recognition</papertitle>
+          <span class="paper-title">SignBERT: Pre-Training of Hand-Model-Aware Representation for Sign Language Recognition</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -326,11 +330,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/MG2T.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/MG2T.png" alt="Model-Aware Gesture-to-Gesture Translation paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Model-Aware_Gesture-to-Gesture_Translation_CVPR_2021_paper.pdf">
-          <papertitle>Model-Aware Gesture-to-Gesture Translation</papertitle>
+          <span class="paper-title">Model-Aware Gesture-to-Gesture Translation</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -349,11 +353,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/HMA.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/HMA.png" alt="Hand-Model-Aware Sign Language Recognition paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16247/16054">
-          <papertitle>Hand-Model-Aware Sign Language Recognition</papertitle>
+          <span class="paper-title">Hand-Model-Aware Sign Language Recognition</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -370,11 +374,11 @@
 
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/NMFs-CSL.png" alt="b3do" width="260" style="border-style: none">
+        <img src="images/NMFs-CSL.png" alt="NMFs-aware Sign Language Recognition paper preview image" width="260" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2008.10428">
-          <papertitle>Global-local Enhancement Network for NMFs-aware Sign Language Recognition</papertitle>
+          <span class="paper-title">Global-local Enhancement Network for NMFs-aware Sign Language Recognition</span>
         </a>
         <br>
         <strong>Hezhen Hu</strong>,
@@ -389,24 +393,25 @@
         <p>The <em><strong>first</strong></em> dataset explicitly exploring the importance of non-manual features in sign language.</p>
       </td>
     </tr>
+        </tbody></table>
 
 
       <!-- ========================= Impact & Outreach ========================= -->
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+      <table role="presentation" width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
         <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Impact &amp; Outreach</heading>
+            <h2 id="impact-outreach">Impact &amp; Outreach</h2>
           </td>
         </tr>
       </tbody></table>
 
-      <table style="width:100%;border:0px;border-spacing:20px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <table class="impact-grid" role="presentation" aria-labelledby="impact-outreach" style="width:100%;border:0px;border-spacing:20px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
 
           <!-- Card 1 -->
-          <td style="width:50%;vertical-align:top;">
+          <td class="impact-card" style="width:50%;vertical-align:top;">
             <div style="text-align:center;">
-              <img src="images/Application.jpg" alt="Impact example"
+              <img src="images/Application.jpg" alt="Sign-language technology deployment example"
                   style="width:100%; height:180px; object-fit:contain; display:block;">
             </div>
             <p style="text-align: justify; text-justify: inter-word; margin-top:10px;">
@@ -415,23 +420,23 @@
           </td>
 
           <!-- Card 2 -->
-          <td style="width:50%;vertical-align:top;">
+          <td class="impact-card" style="width:50%;vertical-align:top;">
             <div style="text-align:center;">
               <img src="images/K12.png" alt="K-12 outreach"
                   style="width:100%; height:180px; object-fit:contain; display:block;">
             </div>
             <p style="text-align: justify; text-justify: inter-word; margin-top:10px;">
-              <strong>K–12 education:</strong> Co-authored an AI textbook series adopted nationwide, distributed across 500+ schools and reaching 300,000+ students.
+              <strong>K-12 education:</strong> Co-authored an AI textbook series adopted nationwide, distributed across 500+ schools and reaching 300,000+ students.
             </p>
           </td>
 
         </tr>
       </tbody></table>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <table role="presentation" width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Academic Services</heading>
+              <h2 id="academic-services">Academic Services</h2>
               <p>
                 I serve as Area Chair (AC) for International Conference on Acoustics, Speech, and Signal Processing (ICASSP) and have reviewed the following Journals and Conferences: 
               </p>
@@ -456,34 +461,28 @@
               </td>
           </tr>
         </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-
-	
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <table role="presentation" width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Awards</heading>
+              <h2 id="awards">Awards</h2>
               <ul>
                 <!-- <li> Presidential Scholarship, Chinese Academy of Sciences (CAS), 2023 </li> -->
+                <li> <a href="https://e2e3d.github.io/rising_star.html">Rising Star Award for Spatial Intelligence</a>, Finalist, E2E3D Workshop @ CVPR, 2026 </li>
                 <li> MSRA "Stars of Tomorrow" Award, 2023 </li>
                 <li> University Excellent Doctoral Dissertation, 2023 </li>
                 <li> Outstanding Graduate Student, 2023  </li>
                 <li> ECCV Looking at People CSLR Challenge, Ranked 1st, 2022</li>
                 <li> National Scholarship, 2021, 2017, 2015 </li>
+              </ul>
             </td>
           </tr>
         </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-
-					
-					
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table role="presentation" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
               <br>
-              <p align="middle"><font size="2">
-                Last Update: January 21th, 2025 <br>
+              <p align="middle">
+                Last updated: January 21, 2025 <br>
                 Template borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>. Thanks!
               </p>
             </td>
@@ -491,8 +490,9 @@
         </tbody></table>
       </td>
     </tr>
-  </table>
-<div style="width:200px;margin:0 auto">
+  </tbody></table>
+  </main>
+<div style="width:200px;margin:0 auto" aria-hidden="true">
   <!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=jWKtanh3GLIaA7YarJE404P09JqFOL2zKwXMRyyAEBE&cl=ffffff&w=a"></script> -->
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=jwZ8W1lDC1lgo8n-1JcyVVxUYRhyT6GKf8Z71oOxWb4"></script>
   </div>

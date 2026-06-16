@@ -64,14 +64,35 @@
 }
 
 a {
-  color: #1772d0;
+  color: #1d5fa7;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #b85c00;
   text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 3px solid #f5b642;
+  outline-offset: 3px;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #202124;
+  line-height: 1.55;
+}
+
+main > table {
+  min-height: 100vh;
+}
+
+main > table > tbody > tr > td {
+  padding: 0 !important;
 }
 
 body,
@@ -84,25 +105,161 @@ a {
   font-size: 14px
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
 
-heading {
+h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+  font-weight: 700;
+  display: block;
+  border-bottom: 1px solid #e9edf2;
+  margin-bottom: 12px;
+  margin-top: 0;
+  padding-bottom: 6px;
+  color: #111827;
 }
 
-papertitle {
+.paper-title {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700
 }
 
-name {
+.name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.name-row {
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.profile-section {
+  margin-top: 8px !important;
+}
+
+.contact-links {
+  margin: 14px 0 0;
+}
+
+.skip-link {
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  color: #111827;
+  font-weight: 700;
+  left: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 12px;
+  transform: translateY(-160%);
+  transition: transform 0.15s ease;
+  z-index: 1000;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+.section-nav {
+  border-bottom: 1px solid #e5e7eb;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  justify-content: center;
+  margin: 4px 20px 12px;
+  padding: 12px 0;
+}
+
+.section-nav a {
+  border-bottom: 1px solid transparent;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.4;
+  padding: 2px 0 3px;
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+  color: #1d5fa7;
+  border-bottom-color: currentColor;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+.hoverZoomLink {
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12);
+}
+
+td[style*="width:25%"] img {
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.publication-list tr > td {
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+
+.publication-list td[width="75%"] p {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+tr[bgcolor="#ffffd0"] {
+  background-color: #fffdf0;
+}
+
+tr[bgcolor="#ffffd0"] td:first-child {
+  border-left: 3px solid #e3b23c;
+}
+
+.impact-grid {
+  border-spacing: 16px !important;
+  margin-top: -8px !important;
+}
+
+.impact-card {
+  background: #ffffff;
+  border: 1px solid #e7ebef;
+  border-radius: 6px;
+  padding: 14px !important;
+}
+
+.impact-card img {
+  border-radius: 4px;
+}
+
+.impact-card p {
+  margin-bottom: 0;
 }
 
 .one {
@@ -127,5 +284,70 @@ name {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: #fff1a8;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+
+@media (max-width: 700px) {
+  main > table {
+    width: 100% !important;
+  }
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong,
+  .paper-title {
+    font-size: 15px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .section-nav {
+    gap: 6px 12px;
+    justify-content: flex-start;
+    margin: 4px 20px 12px;
+  }
+
+  .section-nav a {
+    font-size: 15px;
+  }
+
+  td[style*="width:63%"],
+  td[style*="width:40%"],
+  td[style*="width:25%"],
+  td[width="75%"] {
+    display: block;
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  td[style*="width:25%"] {
+    padding-bottom: 4px !important;
+  }
+
+  td[style*="width:25%"] img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .publication-list tr > td {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .impact-grid {
+    border-spacing: 0 14px !important;
+  }
+
+  .impact-card {
+    display: block;
+    width: auto !important;
+  }
 }
