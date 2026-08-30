@@ -267,6 +267,26 @@ tr[bgcolor="#ffffd0"] td:first-child {
   margin-bottom: 0;
 }
 
+.academic-services {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.academic-services p {
+  margin-bottom: 8px;
+}
+
+.service-list {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.service-list li {
+  margin-bottom: 2px;
+}
+
 .one {
   width: 160px;
   height: 160px;
@@ -357,5 +377,9 @@ span.highlight {
   .impact-card {
     display: block;
     width: auto !important;
+  }
+
+  .service-list {
+    font-size: 14px;
   }
 }
